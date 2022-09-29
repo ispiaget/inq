@@ -121,17 +121,17 @@ margin-bottom: 1px;
   
     <!-- Create Form -->
 
-	 <form id="form" action="https://api.staticforms.xyz/submit" method="post">
+	 <form id="form" action="mail.php" method="post">
  
         <!-- Details -->
         <div class="form-control">
-            <label for="name" id="label-name" required>
+            <label for="nome" id="label-name" required>
                 Nome
             </label>
  
             <!-- Input Type Text -->
             <input type="text"
-                   id="name"
+                   id="nome"
                    placeholder="nome completo" />
         </div>
   
@@ -147,23 +147,23 @@ margin-bottom: 1px;
         </div>
   
         <div class="form-control">
-            <label for="age" id="label-age">
+            <label for="idade" id="label-age">
                 Idade
             </label>
  
             <!-- Input Type Text -->
             <input type="text"
-                   id="age"
+                   id="idade"
                    placeholder="sua idade" />
         </div>
   
         <div class="form-control">
-            <label for="role" id="label-role">
+            <label for="Genero" id="label-role">
                 Genero
             </label>
              
             <!-- Dropdown options -->
-            <select name="role" id="role">
+            <select name="Genero" id="Genero">
                 <option value="masculino">Masculino</option>
                 <option value="femenito">Femenio</option>
                 
@@ -179,17 +179,17 @@ margin-bottom: 1px;
             <label for="recommed-1">
                 <input type="radio"
                        id="recommed-1"
-                       name="recommed">Reclamaões</input>
+                       name="recomendar">Reclamaões</input>
             </label>
             <label for="recommed-2">
                 <input type="radio"
                        id="recommed-2"
-                       name="recommed">Sugestões</input>
+                       name="recomendar">Sugestões</input>
             </label>
             <label for="recommed-3">
                 <input type="radio"
                        id="recommed-3"
-                       name="recommed">Outros</input>
+                       name="recomendar">Outros</input>
             </label>
         </div>
   
@@ -231,12 +231,12 @@ margin-bottom: 1px;
         </div>
   
         <div class="form-control">
-            <label for="comment">
+            <label for="mensagem">
                 Comentários ou sugestões
             </label>
  
             <!-- multi-line text input control -->
-            <textarea name="comment" id="comment"
+            <textarea name="mensagem" id="mensagem"
                 placeholder="Comenta aqui">
             </textarea>
         </div>
@@ -244,8 +244,8 @@ margin-bottom: 1px;
         <!-- Multi-line Text Input Control -->
         <button type="submit">Enviar</button>
            <!--Enviar--> 
-			<input type="hidden" name="accessKey" value=" b0b88754-282a-4e10-b48d-77c0653268b0">
-			<input type="hidden" name="obrigado" value="https://inquerito-p.netlify.app/obrigado">
+			<!--<input type="hidden" name="accessKey" value=" b0b88754-282a-4e10-b48d-77c0653268b0">
+			<input type="hidden" name="obrigado" value="https://inquerito-p.netlify.app/obrigado">-->
     
     </form>
 </body>
